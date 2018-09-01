@@ -17,15 +17,22 @@
     "@babel/core": "^7.0.0",
     "@babel/plugin-proposal-class-properties": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-0",
     "babel-eslint": "^9.0.0",
+    "babel-jest": "^23.4.2",
     "eslint": "^5.5.0",
     "eslint-config-unobtrusive": "^1.2.2",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.5.0",
     "prettier": "^1.14.2",
-    "react": "^16.4.2"
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-testing-library": "^5.0.0"
   },
   "scripts": {
-    "build": "babel src --out-dir dist"
+    "build": "babel src --out-dir dist",
+    "test": "jest"
   }
 }
