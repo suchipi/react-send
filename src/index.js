@@ -1,5 +1,5 @@
 const Component = require("react").Component;
-const mitt = require("mitt");
+const mitt = require("mitt").default;
 
 module.exports = function send(name = "Send") {
   let emitter = mitt();
