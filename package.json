@@ -1,6 +1,6 @@
 {
   "name": "react-send",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Separate your component's markup from their position in the render tree",
   "main": "dist/index.js",
   "repository": "https://github.com/suchipi/react-send",
