@@ -1,0 +1,31 @@
+{
+  "name": "react-send",
+  "version": "1.0.0",
+  "description": "Separate your component's markup from their position in the render tree",
+  "main": "dist/index.js",
+  "repository": "https://github.com/suchipi/react-send",
+  "author": "Suchipi <me@suchipi.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mitt": "^1.1.3"
+  },
+  "peerDependencies": {
+    "react": ">=0.15"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0",
+    "eslint-config-unobtrusive": "^1.2.2",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.14.2",
+    "react": "^16.4.2"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  }
+}
