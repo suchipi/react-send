@@ -6,6 +6,19 @@
   "repository": "https://github.com/suchipi/react-send",
   "author": "Suchipi <me@suchipi.com>",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "portal",
+    "warp",
+    "teleport",
+    "move",
+    "hoist",
+    "react-dom",
+    "react-native",
+    "send",
+    "input",
+    "output"
+  ],
   "dependencies": {
     "mitt": "^1.1.3"
   },
